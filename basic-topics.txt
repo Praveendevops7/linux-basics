@@ -1,0 +1,122 @@
+H/W Config
+
+CPU :  
+MEM : 
+HDD :
+
+S/W Config :
+
+OS Version:
+OS Arch : 
+    32 bit: x86
+    64 bit: x86_64
+
+In Linux everything is a command
+
+
+Users:
+    - Normal Users                  -> $
+    - Root User (Adminstrator)      -> #
+
+Commands:
+
+    Syntax: command-name {options} {inputs}
+
+        Options:
+            -{single character}
+            --{single word}
+
+
+        Default Options: --help
+
+date
+ls
+
+Files:
+    Create  : touch
+    Remove  : rm
+    Rename  : mv
+    Copy    : cp
+    
+Directories:
+    Create : mkdir  
+    Remove : rm
+    Rename : mv
+    Copy   : cp
+
+
+
+cd - change directory 
+pwd - present working directory
+
+vi
+
+Utilities:
+
+wget
+    -- sudo yum install wget -y 
+tar -> 
+tar.gz
+    gz -> Gunzip
+    bz2 -> Bunzip
+zip -> 
+curl 
+
+FIlter COmmand: 
+    - cat 
+    - grep 
+    - head 
+    - tail 
+    - cut 
+
+Combining commands :
+    Command Logical AND : &&
+    Commadn Logical OR  : ||
+    Pipes: | 
+
+Admin: 
+    User Management 
+        - Privilege 
+        - User 
+        - Group 
+
+    Package / Software
+        1) Package Installation -- .rpm
+            RPM - redhat package manager
+             rpm -- 
+             yum (rpm)  
+        2) Binary Install 
+        3) Source install
+    
+    Service
+        systemctl <-- centos 7 
+            start
+            stop 
+            restart
+            enable
+            disable 
+            status 
+
+
+        service <-- centos 6
+        
+    Process Management : 
+
+    File:
+        Ownerships  : 
+        Permissions :
+
+
+        Numbers : chmod 755 ????
+        
+    Network -- 
+        What is the ip address
+        name 
+        port 
+        port process mapping
+
+    Disk -- 
+        df / fdisk 
+        find / locate
+
+
